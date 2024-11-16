@@ -379,7 +379,7 @@ export function CombinedChecklistAppComponent() {
                               <DialogTitle>确认删除</DialogTitle>
                             </DialogHeader>
                             <p className="text-muted-foreground">
-                              您确定要删除 "{checklist.name}" 检查单吗？此操作无法撤销。
+                              您确定要删除 &quot;{checklist.name}&quot; 检查单吗？此操作无法撤销。
                             </p>
                             <div className="flex justify-end space-x-2 mt-4">
                               <Button variant="outline" onClick={() => {}}>取消</Button>
